@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<?php
+
+$Documento = $_POST['documento'];
+$Nombres = $_POST['nombres'];
+$Apellidos = $_POST['apellidos'];
+$Direccion = $_POST['direccion'];
+$Telefono = $_POST['telefono'];
+
+
+include("pagina1.php");
+$con = conectar();
+
+if($conn)
+echo"<center><h1>Se realizo exitosamente la conexion a la base de datos </h1></center>";
+
+    $sql = "SELECT * FROM usuarios";
+
+    $result = mysqli_query($con,$sql);
+    
+    
+    ?>
+    <CENTER> <table>
+         <tr>
+            <td><h3>Nombre</h3> </td>
+           <td><h3>Apellido</h3> </td>
+           <td><h3>Documento</h3> </td>
+           <td><h3>Telefono</h3> </td>
+           <td><h3>Direccion</h3> </td>
+          <tr>
+     
+        <?php
+     
+       while($row = mysqli_fetch_array($result))
+       { 
+     
+          printf("<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>", $row["nombres"],$row["apellidos"],$row["documento"],$row["direccion"], $row["telefono"]); 
+     
+        } 
+     
+        mysqli_free_result($result); 
+    
+    ?>
+
+</body>
+</html>

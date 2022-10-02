@@ -1,0 +1,1 @@
+  border-image: radial-gradient(darkviolet, pink) 1;

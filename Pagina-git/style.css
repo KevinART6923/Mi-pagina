@@ -1,0 +1,542 @@
+html {
+	border: 8px solid darkviolet;!important
+	min-height: 100%;
+   }
+
+.titulos {
+		
+	    
+		color: darkviolet;
+		font-family: 'Combo', cursive;
+		margin-bottom: 1%;
+	     margin-left: 25%;
+	
+	
+		
+}
+
+
+
+.Problema-clase,.Solucion-clase,.Lenguajes-clase,.Productos-clase  {
+
+		border: none;
+		position: relative;
+        right: -70px;
+		bottom: -30px;
+
+} 
+			
+
+.logo { 
+		
+	    max-width: 130%;
+		max-height: 100%;
+ 
+}
+			
+
+.logo {
+				
+		height:120px;
+		width: 150px;
+		clear: none;
+		float: left;
+}
+			
+			
+nav ul li{
+
+		display: inline-block;
+		line-height: 70px;
+		margin-left: 20px;
+
+}
+			
+
+.parrafos {
+		
+		font-family: 'Alegreya Sans SC', sans-serif;
+		font-family: 'DynaPuff', cursive;
+		overflow-wrap: break-word;
+		overflow: auto;
+		font-size: 0.875em;
+		text-align: center;
+	    padding-top: 2%;
+		line-height: 30px;
+			
+}
+
+			
+.mainmenubtn {
+				
+		background-color:transparent;
+		font-size: 18pt;
+		font-family: 'Caveat', cursive;
+        color:darkviolet;
+        border: none;
+	    cursor: pointer;
+        padding:20px;
+	    margin-top:20px;
+	    position: relative;
+      	right: -20%;
+	    top:  245%;
+		clear: none;
+		float: left;
+				
+}
+
+
+.mainmenubtn:hover {
+
+		background-color:transparent;
+		clear: none;
+		float: left;
+				
+}
+
+
+.dropdown {
+
+		position: relative;
+	    float: left;
+				
+}
+			
+
+.dropdown-child {
+					
+		display: none;
+		background-color:transparent;
+		min-width: 100px;
+
+			
+}
+			
+
+.dropdown-child a {
+				
+		color: rgb(0, 0, 0);
+		padding: -50px;
+		text-decoration: none;
+		display: block;
+		font-family: 'Alegreya Sans SC', sans-serif;
+		font-family: 'DynaPuff', cursive;
+		position: relative;
+		right: -40%;
+		
+			
+}
+
+
+.dropdown:hover .dropdown-child {
+
+    	display: block;
+			
+}
+
+.dropdown-child-2 {
+					
+	display: none;
+	background-color:transparent;
+	min-width: 100px;
+
+		
+}
+		
+
+.dropdown-child-2 a {
+			
+	color: rgb(0, 0, 0);
+    text-decoration: none;
+	display: block;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-family: 'DynaPuff', cursive;
+	position: relative;
+	right: -20%;
+	
+		
+}
+.dropdown-child-2 a:hover {
+
+color: fuchsia;
+
+
+
+}
+
+
+.dropdown:hover .dropdown-child-2 {
+
+	display: block;
+		
+}
+
+
+
+ .parrafos{
+		
+	    margin: -30px;
+		margin-left: 20%;
+		margin-right: 20%;
+
+}
+
+
+
+
+
+
+
+.audifonos {
+
+	 
+	margin: 2%;
+	 float: right;
+	  width: 30%;
+	  margin-top: 5%;
+	  border-image: linear-gradient(45deg,darkviolet, fuchsia, pink) 1;
+	  border-style: solid;
+	  border-width: 0.2cm;
+	  border-radius: 2%;
+
+	 
+
+
+	  
+}
+
+
+body {
+
+	background-color: white;
+
+
+}
+
+
+.ultimo {
+		
+
+	margin-left: 5%;
+	margin-right: 35%;
+	text-align: left;
+	border-right: 10%;
+		
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-family: 'DynaPuff', cursive;
+	overflow-wrap: break-word;
+	overflow: auto;
+	font-size: 0.875em;
+
+	padding-top: -2%;
+
+}
+
+.Causas {
+
+        margin: -10px;
+		margin-left: 5%;
+		margin-right: 35%;
+		margin-top: 5%;
+        font-family: 'DynaPuff', cursive;
+		overflow-wrap: break-word;
+		overflow: auto;
+		font-size: 0.875em;
+		text-align: left;
+	    padding-top: 2%;
+		color: darkviolet;
+
+	
+
+}
+
+
+
+.alineado {
+
+
+        text-align: left;
+       font-family: 'DynaPuff', cursive;
+		overflow-wrap: break-word;
+		overflow: auto;
+		font-size: 0.875em;
+		line-height: 35px;
+		margin-left:  3%;
+		margin-bottom: -4%;
+        
+}
+
+
+.alineado2 {
+
+
+	text-align: left;
+   font-family: 'DynaPuff', cursive;
+	overflow-wrap: break-word;
+	overflow: auto;
+	font-size: 0.875em;
+
+	line-height: 25px;
+	margin-right: 3% ;
+	
+}
+
+.complicaciones {
+
+	
+	margin-right: 5%;
+	margin-top: 8%;
+	font-family: 'DynaPuff', cursive;
+	overflow-wrap: break-word;
+	overflow: auto;
+	font-size: 0.875em;
+	text-align: left;
+	padding-top: 2%;
+	color: darkviolet;
+
+
+
+}
+
+.parto {
+
+	margin: 2%;
+	 float: left;
+	  width: 15%;
+	  margin-top: 5%;
+	  border-image: linear-gradient(45deg,darkviolet, fuchsia, pink) 1;
+	  border-style: solid;
+	  border-width: 0.2cm;
+	  border-radius: 2%;
+
+
+}
+
+.infecciosas {
+
+    margin-right: 5%;
+	margin-top: 5%;
+	font-family: 'DynaPuff', cursive;
+	overflow-wrap: break-word;
+	overflow: auto;
+	font-size: 0.875em;
+	text-align: left;
+	padding-top: 2%;
+	color: darkviolet;
+	margin-left: 3%;
+	
+}
+
+.infecciosas2 {
+
+	text-align: left;
+   font-family: 'DynaPuff', cursive;
+	overflow-wrap: break-word;
+	overflow: auto;
+	font-size: 0.875em;
+    line-height: 25px;
+	margin-right: 3% ;
+	margin-left: 3%;
+	
+}
+
+.hh {
+
+	margin-top: 5%;
+}
+
+
+.oido {
+
+
+	margin: 2%;
+	 float: right;
+	  width: 30%;
+	  margin-top: 4%;
+	  border-image: linear-gradient(45deg,darkviolet, fuchsia, pink) 1;
+	  border-style: solid;
+	  border-width: 0.2cm;
+	  border-radius: 2%;
+
+}
+
+
+.otitis {
+
+	margin-right: 5%;
+	margin-top: 8%;
+	font-family: 'DynaPuff', cursive;
+	overflow-wrap: break-word;
+	overflow: auto;
+	font-size: 0.875em;
+	text-align: left;
+	padding-top: 2%;
+	color: darkviolet;
+
+
+	
+}
+
+.otitis2 {
+
+
+	text-align: left;
+   font-family: 'DynaPuff', cursive;
+	overflow-wrap: break-word;
+	overflow: auto;
+	font-size: 0.875em;
+     line-height: 25px;
+	margin-right: 3% ;
+
+
+}
+
+.otitis3 {
+
+	  margin: 2%;
+	 float: left;
+	  width: 25%;
+	  margin-top: 3%;
+	  border-image: linear-gradient(45deg,darkviolet, fuchsia, pink) 1;
+	  border-style: solid;
+	  border-width: 0.2cm;
+	  border-radius: 2%;
+
+
+
+
+
+}
+
+
+.ruido {
+
+    margin-right: 5%;
+	margin-top: 5%;
+	font-family: 'DynaPuff', cursive;
+	overflow-wrap: break-word;
+	overflow: auto;
+	font-size: 0.875em;
+	text-align: left;
+	padding-top: 2%;
+	color: darkviolet;
+	margin-left: 3%;
+
+
+
+
+}
+
+.ruido2 {
+
+
+		text-align: left;
+	   font-family: 'DynaPuff', cursive;
+		overflow-wrap: break-word;
+		overflow: auto;
+		font-size: 0.875em;
+		line-height: 25px;
+		margin-right: 3% ;
+		margin-left: 3%;
+		
+	}
+
+	.eu {
+
+	margin: 2%;
+	 float: right;
+	  width: 29%;
+	  margin-top: 3%;
+	  border-image: linear-gradient(45deg,darkviolet, fuchsia, pink) 1;
+	  border-style: solid;
+	  border-width: 0.2cm;
+	  border-radius: 2%
+
+}
+
+.medicamentos {
+
+	margin-right: 5%;
+	margin-top: 4%;
+	font-family: 'DynaPuff', cursive;
+	overflow-wrap: break-word;
+	overflow: auto;
+	font-size: 0.875em;
+	text-align: left;
+	padding-top: 2%;
+	color: darkviolet;
+
+
+}
+
+.envejecimiento {
+
+	margin-right: 5%;
+	margin-top: 5%;
+	font-family: 'DynaPuff', cursive;
+	overflow-wrap: break-word;
+	overflow: auto;
+	font-size: 0.875em;
+	text-align: left;
+	padding-top: 2%;
+	color: darkviolet;
+	margin-left: 3%;
+
+
+
+
+}
+
+
+.envejecimiento2
+
+{
+
+	margin: 2%;
+	float: right;
+	 width: 26%;
+	 height: 20%;
+	 margin-top: 3%;
+	 border-image: linear-gradient(45deg,darkviolet, fuchsia, pink) 1;
+	 border-style: solid;
+	 border-width: 0.2cm;
+	 border-radius: 2%;
+
+
+
+
+}
+
+
+.hh2 {
+
+margin-top: -1%;
+
+}
+
+.ultima {
+
+
+	text-align: left;
+	font-family: 'DynaPuff', cursive;
+	 overflow-wrap: break-word;
+	 overflow: auto;
+	 font-size: 0.875em;
+	 line-height: 25px;
+	 margin-right: 3% ;
+	 margin-left: 3%;
+	 margin-top: 4%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+	  
